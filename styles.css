@@ -1,0 +1,104 @@
+:root {
+    --background-color: hsl(47, 88%, 63%);
+    --container-background: hsl(0, 0%, 100%);
+    --text-color1: hsl(0, 0%, 47%);
+    --text-color: hsl(0, 0%, 7%);
+    --hover-text: hsl(47, 88%, 70%);
+    --font-size: 16px;
+    --font-weight: 800;
+    --border-radius: 1.2rem;
+    --border-radius1: 0.5rem;
+    --border-radius2: 0.2rem;
+    --box-shadow: 0.5rem 0.5rem black;
+    --border-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+.container{
+    width: 330px;
+    height: 470px;
+    background-color: var(--container-background);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50% auto;
+    padding: 1rem 1rem;
+    border: 0.09rem solid;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border-color: var(--border-color);
+    row-gap: 0.7rem;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border-radius: var(--border-radius1);
+}
+
+.state {
+    background-color: var(--background-color);
+    width: fit-content;
+    height: 1.5rem;
+    padding: 0.7rem;
+    border-radius: var(--border-radius2);
+    display: flex;
+    align-items: center;
+}
+
+.state p {
+    font-weight: bold;
+    margin: 0.5rem auto;
+}
+
+.published {
+    color: var(--text-color);
+}
+
+h3 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+h3 a:hover {
+    color: var(--hover-text);
+}
+
+
+
+.description {
+    color: var(--text-color1);
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.profile {
+    width: 1.7rem;
+    height: auto;
+}
+
+.profile-text {
+    margin: 0;
+    font-weight: bold;
+    font-size: small;
+}
