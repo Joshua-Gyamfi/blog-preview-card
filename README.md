@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Joshua-Gyamfi/blog-preview-card)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://blog-preview-card-ten-peach.vercel.app/)
 
 ## My process
 
