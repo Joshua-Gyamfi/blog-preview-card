@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 50% auto;
+    margin: 5rem auto;
     padding: 1rem 1rem;
     border: 0.09rem solid;
     border-radius: var(--border-radius);
@@ -78,8 +78,6 @@ h3 a:hover {
     color: var(--hover-text);
 }
 
-
-
 .description {
     color: var(--text-color1);
     text-align: left;
@@ -101,4 +99,27 @@ h3 a:hover {
     margin: 0;
     font-weight: bold;
     font-size: small;
+}
+
+footer {
+    text-align: left;
+    display: flex;
+    align-items: start;
+    bottom: 0;
+    position: fixed;
+}
+
+@media screen and (min-width < 375px) {
+    .container {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    footer {
+    text-align: left;
+    display: flex;
+    align-items: start;
+    bottom: 0;
+    position: fixed;
+}
 }
