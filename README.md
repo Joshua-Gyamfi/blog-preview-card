@@ -41,8 +41,6 @@ Users should be able to:
 
 Variable and Static fonts, card component design, how to integrate modern tools like figma in building projects.
 
-To see how you can add code snippets, see below:
-
 ### Continued development
 
 My next focus will be how to combine these components to build complex websites/apps.
